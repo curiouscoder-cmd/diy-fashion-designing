@@ -9,14 +9,17 @@
         padding:0;
         }
         .bar{background-color: lightgrey;
-            height:30px;
+            height:60px;
             width: 100%;
             margin:0;
             padding:10px;
             display:flex;
             justify-content:space-between;
         }
-        .items{font-size: 18px;}
+        .items{
+            font-size: 18px;
+            justify-content: space-between;
+        }
         #img1{height:100vh;
               width:100vw;
               object-fit: cover;
@@ -31,10 +34,12 @@
 </head>
 <body>
     <div class="bar">
-        <div class="items">Home</div>
-        <div class="items">About</div>
-        <div class="items">Contact</div>
-        <div class="items">Login</div>
+        <div><img src="WhatsApp_Image_2024-12-05_at_09.40.17-removebg-preview.png"></div>
+        <div>
+        <a class="items">Home</a>
+        <a class="items">About</a>
+        <a class="items">Contact</a>
+        <a class="items">Login</a></div>
     </div>
     <div id="img1"><img src='pexels-mart-production-7679866.jpg'></div>
     
